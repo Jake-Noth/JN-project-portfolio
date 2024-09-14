@@ -1,16 +1,21 @@
-body {
+html, body {
   margin: 0;
   padding: 0;
+  height: 100%;
+  scroll-behavior: smooth;
 }
 
 .navbar {
-  position: sticky;
+  position:fixed;
   top: 0;
+  height: 30px;
   width: 100%;
   display: flex;
   justify-content: right;
+  align-items: center;
   background-color: #076652;
   gap: 20px;
+  z-index: 1000;
 }
 
 .nav-item, .nav-item-contact {
@@ -28,8 +33,26 @@ body {
 }
 
 .nav-item-contact {
-  padding-right: 45px;
+  padding-right: 20px;
 }
+
+.section {
+  height: 100vh;
+  background-color: aqua;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.nav-spacer {
+  height: 30px;
+}
+
+.teebox-container {
+  
+  height: calc(100vh - 30px);
+}
+
 
 @media (max-width: 800px) {
   .nav-text, .nav-item, .nav-item-contact {
@@ -69,24 +92,4 @@ body {
   .navbar {
       justify-content: center;
   }
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-.section-height {
-  height: 100vh;
-  background-color: aqua;
-  margin: 0;
-  padding: 0;
-  border-bottom: 2px solid black;
-}
-
-.tee-content {
-  height: 300px;
-}
-
-.tee-canvas {
-  border: 1px solid red; /* Temporarily add a border to see boundaries */
 }

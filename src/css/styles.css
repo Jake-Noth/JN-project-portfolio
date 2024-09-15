@@ -41,7 +41,6 @@ html, body {
   background-color: aqua;
   margin: 0;
   padding: 0;
-  
 }
 
 .nav-spacer {
@@ -49,7 +48,6 @@ html, body {
 }
 
 .teebox-container {
-  
   height: calc(100vh - 30px);
 }
 

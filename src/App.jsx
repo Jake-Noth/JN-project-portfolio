@@ -12,19 +12,19 @@ export default function App() {
   <>
     <NavagationBar/>
     <Section id="teebox" img="public/teeboxpicture.jpg">
-      
+      <TeeBoxContainer/>
     </Section>
     
-    <Section id="fairway" img="public/teeboxpicture.jpg">
-     
+    <Section id="fairway" img="public/spritesheets/driverSpriteSheet-1.png.png">
+      <TeeBoxContainer/>
     </Section>
 
     <Section id = "green" img="public/teeboxpicture.jpg">
-      
+      <TeeBoxContainer/>
     </Section>
 
-    <Section id = "contact" img="public/teeboxpicture.jpg">
-      
+    <Section id = "contact" img="public/spritesheets/driverSpriteSheet-1.png.png">
+      <TeeBoxContainer/>
     </Section>
   </>
   )
